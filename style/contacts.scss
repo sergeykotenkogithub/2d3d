@@ -1,0 +1,25 @@
+.contacts {
+
+    &__phone {
+        display: flex;
+        align-items: center;
+        padding-bottom: 30px;
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+
+        img {
+            padding-right: 20px;
+        }
+    }
+
+    &__address {
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+
+        img {
+            padding-right: 20px;
+        }
+    }
+}

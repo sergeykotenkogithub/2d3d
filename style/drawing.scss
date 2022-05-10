@@ -1,0 +1,84 @@
+.drawing {
+    &__imgs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 600px;
+        position: relative;
+
+    }
+
+    .drawing__img {
+        width: 100%;
+
+        &_1 {
+            height: 70%;
+        }
+    }
+
+    &__text-block {
+        background: white;
+        color: black;
+        display: flex;
+        padding: 20px;
+        height: 110px;
+    }
+
+    &__text {
+        font-size: 20px;
+    }
+
+    &__dislike {
+        padding-left: 20px;
+    }
+
+    &__img-1,
+    &__img-2 {
+        position: relative;
+    }
+
+    &__circle {
+        border: 1px solid black;
+        border-radius: 50%;
+        font-size: 25px;
+        background: silver;
+        width: 80px;
+        height: 80px;
+        @extend %center-flex;
+    }
+
+    &__circle-2d {
+        position: absolute;
+        top: -20px;
+        left: 40%;
+        color: red;
+    }
+
+    &__circle-3d {
+        position: absolute;
+        top: -20px;
+        right: 40%;
+        color: black;
+    }
+
+    &__like {
+        padding-right: 20px;
+    }
+
+    &__text-dislike {
+        position: relative;
+        top: -150px;
+    }
+
+    &__text-like {
+        position: relative;
+        top: -37px;
+        width: 87%;
+        left: 13%;
+    }
+
+    &__arrow {
+        position: absolute;
+        @extend %center-block;
+        left: 53%;
+    }
+}

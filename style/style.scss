@@ -1,0 +1,135 @@
+@import "null";
+@import "scs_module";
+@import "header";
+@import "benefits";
+@import "designing";
+@import "services";
+@import "drawing";
+@import "models";
+@import "not_error";
+@import "simulation";
+@import "contacts";
+@import "company";
+@import "reengineering";
+@import "collisions";
+
+.body._lock {
+    overflow: hidden;
+}
+
+.page {
+    padding: 90px 0 30px 0;
+
+    &__section {
+        padding: 30px;
+        max-width: 1200px;
+        margin: 0 auto;
+
+        &_1 {
+            border-color: red;
+            padding: 0;
+        }
+
+        &_2 {
+            // background-color: blue;
+        }
+
+        &_3 {
+            // background-color: green;
+        }
+    }
+
+    &__title {
+        font-size: 40px;
+        margin: 0 0 20px 0;
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 150%;
+
+        p {
+            margin: 0 0 20px 0;
+        }
+    }
+
+    &__sub-title {
+        text-align: center;
+        font-size: 30px;
+    }
+}
+
+.main-img {
+    position: relative;
+
+    &__src {
+        width: 100%;
+        filter: brightness(60%);
+    }
+
+    &__section-1 {
+        position: absolute;
+        left: 30px;
+        top: 50%;
+        font-size: 25px;
+
+        @media (min-width:1200px) {
+            p {
+                font-size: 34px;
+            }
+        }
+
+        @media (min-width:940px) {
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        @media (max-width:680px) {
+            font-size: 18px;
+        }
+
+        @media (max-width:480px) {
+            font-size: 14px;
+        }
+    }
+}
+
+// часто используются
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.title-text {
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+.sub-title-text {
+    font-size: 28px;
+}
+
+.title-block {
+    padding-bottom: 20px;
+}
+
+.text-under-title {
+    text-align: center;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.circle-2d-3d {
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 25px;
+    background: silver;
+    width: 80px;
+    height: 80px;
+    @extend %center-flex;
+}

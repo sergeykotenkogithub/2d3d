@@ -1,0 +1,32 @@
+.page {
+
+    &__section {
+
+        &_10 {}
+    }
+
+    &__sub-title {}
+}
+
+.not-error {
+
+    &__title {}
+
+    &__sub-title {}
+
+    &__img {
+        width: 100%;
+    }
+
+    &__img-wrapper {
+        position: relative;
+    }
+
+    &__arrow {
+        position: absolute;
+        left: 54%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 20%;
+    }
+}
