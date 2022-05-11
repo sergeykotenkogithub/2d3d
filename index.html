@@ -72,7 +72,7 @@
                 </div>
             </div>
         </header>
-
+  
         <main class="page">
 
             <!-- С картинкой начальной -->
@@ -139,8 +139,10 @@
 
             <!-- Проектирование  -->
             <section class="page__section page__section_3 designing">
-                <h2 class="page__sub-title title-text designing__title">Проектирование 3D модели по чертежам 2D</h2>
-                <p class="sub-title-text designing__sub-title text-underline">Порядок действий:</p>
+                <div class="designing__title-block">
+                    <h2 class="page__sub-title title-text designing__title">Проектирование 3D модели по чертежам 2D</h2>
+                    <p class="sub-title-text designing__sub-title text-underline">Порядок действий:</p>
+                </div>
                 <div class="designing__blocks">
                     <div class="designing__block designing__block-1 ">
                         <img class="designing__block-img designing__img-1" src="./img/designing/block_1.png" alt="">
@@ -228,17 +230,33 @@
                     </div>
 
                     <div class="designing__circle"> </div>
+                </div>
 
-
-
-                    <!-- <img src="./img/designing/block_1.png" alt=""> -->
-                    <!-- <img src="./img/designing/block_1.png" alt=""> -->
+                <div class="designing__mobile-blocks designing-mobile">
+                    <p class="designing-mobile__text">
+                       <span class="designing-mobile__number">01.</span> Получение готовых чертежей архитектурного /строительного /ТХ проекта (с возможностью оптимизационных решений)
+                    </p>                    
+                    <p class="designing-mobile__text">
+                        <span class="designing-mobile__number">02.</span> Создается BIM модель – стены, перекрытия, колонны, фермы, двери, окна, 
+                        кровля, навесы и прочие АР, КЖ, КМ, ТХ, ИОС решения, с указанным уровнем детализации;
+                    </p>                    
+                    <p class="designing-mobile__text">
+                        <span class="designing-mobile__number">03.</span> Для раздела ТХ создаётся оборудование, расставляется согласно исходным 
+                        планам и P&ID схемам, далее производится обвязка трубопроводами и подключение;
+                    </p>                    
+                    <p class="designing-mobile__text">
+                        <span class="designing-mobile__number">04.</span> По завершению модель проверяется на пересечения в Navisworks. 
+                        Он позволяет находить коллизии, формировать ведомости и координировать исправления в модели.
+                    </p>                    
+                    <p class="designing-mobile__text">
+                        <span class="designing-mobile__number">05.</span> Итоговая модель без коллизий, оптимизированная, с корректными ведомостями материалов и чертежами. 
+                    </p>                    
                 </div>
             </section>
 
             <!-- Услуги -->
             <section class="page__section page__section_4 services">
-                <h2 class="page__sub-title services__title">Наши услуги</h2>
+                <h2 class="page__sub-title services__title title-text">Наши услуги</h2>
                 <div class="services__info-wrapper">
                     <div class="services__left-block">
                         <div data-goto=".page__section_5" class="services__block menu-scroll">
@@ -364,11 +382,11 @@
                     </div>
                 </div>
             </section>
-
+            
             <!-- Реинжиниринг -->
             <section class="page__section page__section_5 reengineering">
                 <div class="title-block">
-                    <h2 class="page__sub-title title-text">Как выглядит реинжиниринг </h2>
+                    <h2 class="page__sub-title title-text title-text">Как выглядит реинжиниринг </h2>
                     <p class="text-under-title">
                         Основное различие заключается в том, что AutoCAD используется главным образом в качестве
                         средства
@@ -403,7 +421,7 @@
                         </div>
                         <div class="reengineering__circle-2d circle-2d-3d cirle-reengineering">2D</div>
                     </div>
-                    <div class="reengineering__img-1">
+                    <div class="reengineering__img-1 reengineering__img-2">
                         <img class="reengineering__img" src="./img/reengineering/img_2.png" alt="картинка 1">
                         <div class="reengineering__text-block reengineering__text-like">
                             <img class="reengineering__like reengineering__img-like-dislike"
@@ -434,8 +452,8 @@
                         </div>
                         <div class="reengineering__circle-3d circle-2d-3d cirle-reengineering">3D</div>
                     </div>
-                    <img class="reengineering__arrow_1" src="./img/drawing/arrow.png" alt="стрека">
-                    <img class="reengineering__arrow_2" src="./img/drawing/arrow.png" alt="стрека">
+                    <img class="reengineering__arrow_1 arrow" src="./img/drawing/arrow.png" alt="стрека">
+                    <img class="reengineering__arrow_2 arrow" src="./img/drawing/arrow.png" alt="стрека">
                 </div>
             </section>
 
@@ -457,22 +475,22 @@
                             <p class="drawing__text">
                                 На 2D чертежах коммуникации отображены в линию, пересечений с другими объектами не видно
                             </p>
-                            <img class="drawing__dislike" src="./img/drawing/dislike.png" alt="дизлайк">
+                            <img class="drawing__dislike like-dislike" src="./img/drawing/dislike.png" alt="дизлайк">
                         </div>
-                        <div class="drawing__circle-2d drawing__circle cirle-reengineering">2D</div>
+                        <div class="drawing__circle-2d circle-2d-3d drawing__circle cirle-reengineering">2D</div>
                     </div>
                     <div class="drawing__img-2">
                         <img class="drawing__img drawing__img_1" src="./img/drawing/img_2.png" alt="картинка 2">
                         <div class="drawing__text-block drawing__text-like">
-                            <img class="drawing__like" src="./img/drawing/like.png" alt="лайк">
+                            <img class="drawing__like like-dislike" src="./img/drawing/like.png" alt="лайк">
                             <p class="drawing__text">
                                 Все строительные разделы проверяются друг с другом одновременно, видны пересечения что
                                 позволяет избежать коллизии
                             </p>
                         </div>
-                        <div class="drawing__circle-3d drawing__circle">3D</div>
+                        <div class="drawing__circle-3d circle-2d-3d drawing__circle">3D</div>
                     </div>
-                    <img class="drawing__arrow" src="./img/drawing/arrow.png" alt="стрека">
+                    <img class="drawing__arrow arrow" src="./img/drawing/arrow.png" alt="стрека">
                 </div>
             </section>
 
@@ -490,7 +508,7 @@
                             <div class="collisions-up__imgs">
                                 <div class="collisions-up__img-top collisions-circle-dashed">
                                     <img src="./img/collisions/up-3.png" alt="модель">
-                                    <div class="collisions-up__circle collisions-circle">
+                                    <div class="collisions-up__circle collisions-circle collisions-900">
 
                                     </div>
                                 </div>
@@ -508,10 +526,10 @@
                                         Металлопрокат, код 07.2.07.13  (как образец) – по автоматически составленным спецификациями из модели с индивидуальным кодом проката, составляются ведомости объемов
                                     </p>
                                     <div class="collisions-up__line-2">
-                                         --------
+                                            --------
                                     </div>
                                 </div>                               
-                           
+                            
                                 <div class="collisions-up__img-down">
                                     <img class="collisions-up__img-small" src="./img/collisions/up-2.png" alt="объект"> 
                                 </div>
@@ -522,7 +540,7 @@
                             </div>
                         </div>
 
-                        <div class="collisions-up__block-right">
+                        <div class="collisions-up__block-right collisions-1380">
                             <div class="collisions-up__text-wrapper collisions-up__text-wrapper_right">  
                                 <p >
                                     Флотационная машина, код оборудования 2700-FC-401-409  (как образец) – по автоматически составленным спецификациями из модели с индивидуальным кодом, составляются ведомости для подсчета оборудования
@@ -553,7 +571,7 @@
                                             Ограждающие конструкции
                                         </p>
                                         <p>
-                                              Сэндвич-панель 150 мм, код 09-04-006-04 (как образец) – по автоматически составленным спецификациями из модели с индивидуальным кодом материала, составляются ведомости объемов материалов
+                                                Сэндвич-панель 150 мм, код 09-04-006-04 (как образец) – по автоматически составленным спецификациями из модели с индивидуальным кодом материала, составляются ведомости объемов материалов
                                         </p>
 
                                         <div class="collisions-down__circle-2 collisions-circle">  </div>
@@ -574,19 +592,41 @@
                                 <div class="collisions-down__img-down">
                                     <img class="collisions-down__img-small" src="./img/collisions/down-2.png" alt="объект"> 
                                 </div>
-                                <div class="collisions-down__img-down-circle collisions-circle-dashed">
+                                <div class="collisions-down__img-down-circle collisions-circle-dashed collisions-1380">
                                     <img class="collisions-down__img-small-cirle" src="./img/collisions/down-3.png" alt="объект"> 
                                     <div class="collisions-down__circle collisions-circle">
 
                                     </div>
                                 </div>
                             </div>
-       
+        
                         </div>
+
+
                     
                     </div>     
 
-                    <div class="collisions-up__line-4">
+                    <div class="collisions-down__new-adaptive">
+                        <div class="collisions-down__img-down-circle collisions-circle-dashed ">
+                            <img class="collisions-down__img-small-cirle" src="./img/collisions/down-3.png" alt="объект"> 
+                            <div class="collisions-down__circle collisions-circle">
+
+                            </div>
+                        </div>
+
+                        <div class="collisions-up__block-right">
+                            <div class="collisions-up__text-wrapper collisions-up__text-wrapper_right">  
+                                <p >
+                                    Флотационная машина, код оборудования 2700-FC-401-409  (как образец) – по автоматически составленным спецификациями из модели с индивидуальным кодом, составляются ведомости для подсчета оборудования
+                                </p>
+                                <div class="collisions-up__line-3">
+                                    -------------------------
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="collisions-up__line-4 collisions-1380">
                         -----------------------------------------
                     </div>
                 </div>    
@@ -685,7 +725,7 @@
 
             <!-- Контакты  \ contacts-->
             <section class="page__section page__section_12 contacts">
-                <h2 class="page__sub-title">Контакты</h2>
+                <h2 class="page__sub-title contacts__title">Контакты</h2>
                 <a class="contacts__phone" href="tel:+79000000000">
                     <img src="./img/contackts/phone.png" alt="позвонить">
                     +79000000000
@@ -695,8 +735,10 @@
                     г.Москва и тут улица
                 </div>
             </section>
+
         </main>
         <footer></footer>
+  
     </div>
     <script src="script.js"></script>
 </body>

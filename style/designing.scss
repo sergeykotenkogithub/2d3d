@@ -8,6 +8,9 @@
     &__blocks {
         position: relative;
         height: 495px;
+        @media (max-width:1200px){
+            display: none;
+        }
     }
 
     &__block-img {
@@ -270,5 +273,33 @@
         &_revit {
             top: 34px;
         }
+    }
+
+    &__title-block {
+        @media (max-width:1200px){
+            padding-bottom: 20px;
+        }
+    }
+}
+
+.designing-mobile {
+
+    @media (min-width:1201px){
+        display: none;
+    }
+
+    &__text {
+        font-size: 20px;
+        padding-bottom: 20px;
+        @media (max-width:720px){
+            font-size: 17px;  
+        }
+        @media (max-width:480px){
+            font-size: 14px;  
+        }
+    }
+
+    &__number {
+        font-weight: bold;
     }
 }

@@ -1,7 +1,13 @@
 .company {
+    @media (max-width:580px){
+        padding: 30px 20px !important;
+    }
     &__text {
         font-size: 20px;
         padding: 10px 0;
         line-height: 140%;
+        @media (max-width:580px){
+            font-size: 16px;
+        }
     }
 }

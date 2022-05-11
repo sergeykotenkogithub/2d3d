@@ -25,6 +25,14 @@
         max-width: 1200px;
         margin: 0 auto;
 
+        @media (max-width:1200px){
+            padding: 20px 30px; 
+        }
+
+        @media (max-width:580px){
+            padding: 30px 0;
+        }
+
         &_1 {
             border-color: red;
             padding: 0;
@@ -36,12 +44,39 @@
 
         &_3 {
             // background-color: green;
+            @media (max-width:580px){
+                padding: 0px 20px;
+            }
+            @media (max-width:480px){
+                padding: 30px 10px;
+            }
+        }
+
+        &_4 {
+            @media (max-width:580px){
+                padding: 10px 30px;
+            }
         }
     }
 
     &__title {
         font-size: 40px;
         margin: 0 0 20px 0;
+
+        @media (max-width:1200px) {
+            padding-left: 30px;
+        }
+
+        @media (max-width:940px) {
+            font-size: 30px;
+        }
+        
+        @media (max-width:680px) {
+            font-size: 26px;
+            text-align: center;
+            padding-left: 0;
+        }
+ 
     }
 
     &__text {
@@ -56,6 +91,9 @@
     &__sub-title {
         text-align: center;
         font-size: 30px;
+        @media (max-width:480px){
+            font-size: 26px;
+        }
     }
 }
 
@@ -90,7 +128,7 @@
         }
 
         @media (max-width:480px) {
-            font-size: 14px;
+            font-size: 16px;
         }
     }
 }
@@ -103,15 +141,26 @@
 
 .text-underline {
     text-decoration: underline;
+
 }
 
 .title-text {
     margin: 0 0 10px 0;
     text-align: center;
+    @media (max-width:480px){
+        font-size: 26px;
+    }
+
 }
 
 .sub-title-text {
     font-size: 28px;
+    @media (max-width:720px){
+        font-size: 24px;
+    }
+    @media (max-width:480px){
+        font-size: 18px;
+    }
 }
 
 .title-block {
@@ -122,6 +171,12 @@
     text-align: center;
     font-size: 20px;
     line-height: 140%;
+    @media (max-width:940px){
+        font-size: 18px;
+    }
+    @media (max-width:480px){
+        font-size: 16px;
+    }
 }
 
 .circle-2d-3d {
@@ -132,4 +187,28 @@
     width: 80px;
     height: 80px;
     @extend %center-flex;
+    @media (max-width:720px){
+        width: 60px;
+        height: 60px; 
+        font-size: 20px;
+    }
 }
+
+.arrow {
+    @media (max-width:850px){
+        width: 15%;
+    }
+    @media (max-width:480px){
+        width: 80px;
+    }
+}
+
+.like-dislike {
+    @media (max-width:580px){
+        margin-top: 20px;
+    }
+}
+
+// 940
+// 680
+// 480

@@ -21,10 +21,23 @@
         background: url(../img/logo.svg);
         position: relative;
         z-index: 5;
-        width: 16%;
+        width: 45px;
         height: 60px;
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: center;
+        @media (max-width:1200px) {
+            background-size: 100%;
+        }
+        // @media (max-width:680px) {
+        //     width: 25%;
+        // }
+        // @media (max-width:480px) {
+        //     width: 35%;
+        // }
+        // @media (max-width:380px) {
+        //     width: 45%;
+        // }
     }
 }
 
@@ -257,5 +270,12 @@ body._touch .menu__list>li._active .menu__arrow {
             font-size: 20px;
             color: #000;
         }
+    }
+}
+
+
+@media (max-width: 480px) {
+    .menu__link {
+        font-size: 18px;
     }
 }
