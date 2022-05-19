@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Engineering & Services</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+
+    <main class="page">
+
+        <header class="header">
+            <div class="header__container">
+                <a href="./index.html" class="header__logo"></a>
+                <div class="header__menu menu">
+                    <div class="menu__icon">
+                        <span></span>
+                    </div>
+                    <nav class="menu__body">
+                        <ul class="menu__list">
+                            <li><a data-goto=".page__section_2" href="./benefits.html"
+                                    class="menu__link menu-scroll">Преимущества</a></li>
+                            <li><a data-goto=".page__section_3" href="./designing.html" class="menu__link menu-scroll">Проектирование</a>
+                            </li>
+                            <li>
+                                <a data-goto=".page__section_4" href="./services.html" class="menu__link menu-scroll">Услуги</a>
+                                <span class="menu__arrow"></span>
+                                <ul class="menu__sub-list">
+                                    <li>
+                                        <a data-goto=".page__section_5" href="./reengineering.html"
+                                            class="menu__sub-link menu__link men__unset menu-scroll">
+                                            Реинжиниринг
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a data-goto=".page__section_6" href="./drawing.html"
+                                            class="menu__sub-link menu__link men__unset menu-scroll">
+                                            По чертежам
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a data-goto=".page__section_7" href="./collisions.html"
+                                            class="menu__sub-link menu__link men__unset menu-scroll">
+                                            Колизии
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a data-goto=".page__section_8" href="./model.html"
+                                            class="menu__sub-link menu__link men__unset menu-scroll">
+                                            Модели
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a data-goto=".page__section_9" href="./not_error.html"
+                                            class="menu__sub-link menu__link men__unset menu-scroll">
+                                            Без ошибок
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a data-goto=".page__section_10" href="./simulation.html"
+                                            class="menu__sub-link menu__link men__unset menu-scroll">
+                                            4D Cимуляция
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a data-goto=".page__section_11" href="./company.html" class="menu__link menu-scroll">О компании</a>
+                            </li>
+                            <li><a data-goto=".page__section_12" href="./contacts.html" class="menu__link menu-scroll">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!-- Услуги -->
+        <section class="page__section page__section_4 services">
+            <h2 class="page__sub-title services__title title-text">Наши услуги</h2>
+            <div class="services__info-wrapper">
+                <div class="services__left-block">
+                    <div data-goto=".page__section_5" class="services__block menu-scroll">
+                        <div class="services__block-img">
+                            <img class="services__block-src" src="./img/services/1.png" alt="картинка 1">
+                        </div>
+                        <div class="services__block-text">
+                            Реинжиниринг по 2D документации стадии <br> П или РД
+                        </div>
+                    </div>
+                    <div data-goto=".page__section_6" class="services__block menu-scroll">
+                        <div class="services__block-img">
+                            <img class="services__block-src" src="./img/services/2.png" alt="картинка 1">
+                        </div>
+                        <div class="services__block-text services__block-text_right">
+                            Исправление коллизий по результатам реинжиниринга
+                        </div>
+                    </div>
+                    <div data-goto=".page__section_7" class="services__block menu-scroll">
+                        <div class="services__block-img">
+                            <img class="services__block-src" src="./img/services/3.png" alt="картинка 1">
+                        </div>
+                        <div class="services__block-text services__block-text_right">
+                            Внесение правок в 3D по результатам аудита модели
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__right-block">
+                    <div data-goto=".page__section_8" class="services__block menu-scroll">
+                        <div class="services__block-text services__block-text_right">
+                            Оформление и выдача обновленных 2D
+                        </div>
+                        <div class="services__block-img">
+                            <img class="services__block-src" src="./img/services/4.png" alt="картинка 1">
+                            <img class="services__block-src services__block-src_correct-1"
+                                src="./img/services/4_1.png" alt="картинка 1">
+                        </div>
+                    </div>
+                    <div data-goto=".page__section_9" class="services__block menu-scroll">
+                        <div class="services__block-text services__block-text_right">
+                            Автоматическое извлечение ведомости материалов из исправленных моделей
+                        </div>
+                        <div class="services__block-img">
+                            <img class="services__block-src" src="./img/services/5.png" alt="картинка 1">
+                            <img class="services__block-src services__block-src_correct-2"
+                                src="./img/services/5_1.png" alt="картинка 1">
+                        </div>
+                    </div>
+                    <div data-goto=".page__section_10" class="services__block menu-scroll">
+                        <div class="services__block-text services__block-text_right">
+                            Выполнение 4D симуляции строительства согласно ПОС и ПОР
+                        </div>
+                        <div class="services__block-img">
+                            <img class="services__block-src" src="./img/services/6.png" alt="картинка 1">
+                        </div>
+                    </div>
+                </div>
+
+                <img class="services__main-img" src="./img/services/main.png" alt="основная картинка">
+                <img class="services__main-img_1" src="./img/services/main_3_1.png" alt="основная картинка">
+                <img class="services__main-img_2" src="./img/services/main_3_2.png" alt="основная картинка">
+            </div>
+
+            <!-- services-work -->
+            <div class="services__how-work services-work">
+                <div class="services-work__block">
+                    <div class="services-work__format services-work__format_1">
+                        <img src="./img/services/f1.png" alt="формат">
+                        <img class="services__format-img" src="./img/services/f1_1.png" alt="формат">
+                    </div>
+                    <div class="services-work__info">
+                        Исходные данные от Заказчика – чертежи ПЗ, ТЗ
+                    </div>
+                    <img class="services-work__arrow" src="./img/services/arrow.png" alt="стрелка">
+                </div>
+                <div class="services-work__block">
+                    <div class="services-work__format services-work__format_2">
+                        <div class="services__nwd-img">
+                            <img class="services-work__correct-format-img" src="./img/services/f2.png" alt="формат">
+                            <p class="services-work__text-img">RVT</p>
+                        </div>
+                        <img class="services__format-img" src="./img/services/f2_1.png" alt="формат">
+                    </div>
+                    <div class="services-work__info">
+                        Моделирование
+                    </div>
+                    <img class="services-work__arrow" src="./img/services/arrow.png" alt="стрелка">
+                    <div class="services-work__arrow-bottom">
+                        <img src="./img/services/arrow_2.png" alt="стрелка">
+                        <p class="services-work__text-yes">ДА</p>
+                    </div>
+                </div>
+                <div class="services-work__block">
+                    <div class="services-work__format services-work__format_3">
+                        <div class="services__nwd-img">
+                            <img src="./img/services/f2.png" alt="формат">
+                            <p class="services-work__text-img services-work__text-img_2">NWD</p>
+                        </div>
+                    </div>
+                    <div class="services-work__info">
+                        Необходимость корректировки модели (пересечения, нелогичность, недоступность,нехватка)?
+                    </div>
+                    <div class="services-work__arrow-wrapper">
+                        <img class="services-work__arrow" src="./img/services/arrow.png" alt="стрелка">
+                        <p class="services-work__text-no">НЕТ</p>
+                    </div>
+                </div>
+                <div class="services-work__block">
+                    <div class="services-work__format services-work__format_4">
+                        <div class="services__nwd-img">
+                            <img src="./img/services/f2.png" alt="формат">
+                            <p class="services-work__text-img services-work__text-img_2">NWD</p>
+                        </div>
+                        <img class="services__format-img services__format-img_7" src="./img/services/f4_1.png"
+                            alt="формат">
+                        <img class="services__format-img services__format-img_8" src="./img/services/f4_2.png"
+                            alt="формат">
+                    </div>
+                    <div class="services-work__info services-work__info_long">
+                        <p>-Модель для экспертизы </p>
+                        <p>-Извлечение объемов </p>
+                        <p>работ (м, м2, м3 …) </p>
+                        <p>-Обновленные чертежи </p>
+                        <p>-4D модель </p>
+                    </div>
+                </div>
+            </div>
+        </section>        
+
+    </main>        
+    <script src="script.js"></script>
+</body>
+
+</html>

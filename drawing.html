@@ -10,7 +10,8 @@
 </head>
 
 <body>
-    <div class="wrapper">
+
+    <main class="page">
 
         <header class="header">
             <div class="header__container">
@@ -77,39 +78,44 @@
             </div>
         </header>
 
-        <main class="page">
-
-            <!-- С картинкой начальной -->
-            <section class="page__section page__section_1">
-                <h1 class="page__title"> Digital Engineering & Services </h1>
-                <div class="page__img-main main-img">
-                    <img class="main-img__src" src="./img/main2.png" alt="главная картинка">
-                    <div class="main-img__section-1">
-                        <p>Переведем 2D-чертежи в 3D-модели.</p>
+        <!-- По чертежам \ drawing -->
+        <section class="page__section page__section_6 drawing">
+            <div class="title-block">
+                <h2 class="page__sub-title drawing__title title-text">По чертежам в 2D все отлично, по 3D модели нет
+                </h2>
+                <p class="drawing__sub-title text-under-title">
+                    Модель позволит Вам увидеть ошибки выполненные при 2D проектировании (пересечение независимых
+                    коммуникаций; проход коммуникаций через перекрытия без образования технологических отверстий и
+                    т.д)
+                </p>
+            </div>
+            <div class="drawing__imgs">
+                <div class="drawing__img-1">
+                    <img class="drawing__img" src="./img/drawing/img_1.png" alt="картинка 1">
+                    <div class="drawing__text-block drawing__text-dislike">
+                        <p class="drawing__text">
+                            На 2D чертежах коммуникации отображены в линию, пересечений с другими объектами не видно
+                        </p>
+                        <img class="drawing__dislike like-dislike" src="./img/drawing/dislike.png" alt="дизлайк">
                     </div>
+                    <div class="drawing__circle-2d circle-2d-3d drawing__circle cirle-reengineering">2D</div>
                 </div>
-            </section>
+                <div class="drawing__img-2">
+                    <img class="drawing__img drawing__img_1" src="./img/drawing/img_2.png" alt="картинка 2">
+                    <div class="drawing__text-block drawing__text-like">
+                        <img class="drawing__like like-dislike" src="./img/drawing/like.png" alt="лайк">
+                        <p class="drawing__text">
+                            Все строительные разделы проверяются друг с другом одновременно, видны пересечения что
+                            позволяет избежать коллизии
+                        </p>
+                    </div>
+                    <div class="drawing__circle-3d circle-2d-3d drawing__circle">3D</div>
+                </div>
+                <img class="drawing__arrow arrow" src="./img/drawing/arrow.png" alt="стрека">
+            </div>
+        </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        </main>
-        <footer></footer>
-
-    </div>
+    </main>        
     <script src="script.js"></script>
 </body>
 

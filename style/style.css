@@ -1198,7 +1198,7 @@ body._touch .menu__list > li._active .menu__arrow {
 
 @media (max-width: 580px) {
   .contacts {
-    padding: 30px 20px !important; } }
+    padding: 0px 20px !important; } }
 
 .contacts__phone {
   display: -webkit-box;
@@ -1243,7 +1243,7 @@ body._touch .menu__list > li._active .menu__arrow {
 
 @media (max-width: 580px) {
   .company {
-    padding: 30px 20px !important; } }
+    padding: 0px 20px !important; } }
 
 .company__text {
   font-size: 20px;
@@ -1736,15 +1736,15 @@ body._touch .menu__list > li._active .menu__arrow {
 .page {
   padding: 90px 0 30px 0; }
   .page__section {
-    padding: 30px;
+    padding: 0 30px;
     max-width: 1200px;
     margin: 0 auto; }
     @media (max-width: 1200px) {
       .page__section {
-        padding: 20px 30px; } }
+        padding: 0px 30px; } }
     @media (max-width: 580px) {
       .page__section {
-        padding: 30px 0; } }
+        padding: 0px 0; } }
     .page__section_1 {
       border-color: red;
       padding: 0; }
@@ -1753,10 +1753,10 @@ body._touch .menu__list > li._active .menu__arrow {
         padding: 0px 20px; } }
     @media (max-width: 480px) {
       .page__section_3 {
-        padding: 30px 10px; } }
+        padding: 0px 10px; } }
     @media (max-width: 580px) {
       .page__section_4 {
-        padding: 10px 30px; } }
+        padding: 0px 30px; } }
   .page__title {
     font-size: 40px;
     margin: 0 0 20px 0; }

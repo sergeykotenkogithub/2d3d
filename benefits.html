@@ -10,7 +10,8 @@
 </head>
 
 <body>
-    <div class="wrapper">
+
+    <main class="page">
 
         <header class="header">
             <div class="header__container">
@@ -77,39 +78,56 @@
             </div>
         </header>
 
-        <main class="page">
+        <!-- Преимущества benefits -->
+        <section class="page__section page__section_2 benefits">
+            <div class="benefits__title">
+                <h2 class="benefits__sub-title page__sub-title title-text">Преимущества BIM-технологий </h2>
+                <p class="benefits__text sub-title-text">выражены в нескольких основных составляющих: </p>
+            </div>
+            <div class=".benefits__arrows arrows-bim">
+                <img class="arrows-bim__left arrows-bim_src" src="./img//benefit/left_arrow.png" alt="левая стрелка">
+                <img class="arrows-bim__center arrows-bim_src" src="./img//benefit/center_arrow.png"
+                    alt="центральная стрелка">
+                <img class="arrows-bim__right arrows-bim_src" src="./img//benefit/right_arrow.png" alt="правая стрека">
+            </div>
 
-            <!-- С картинкой начальной -->
-            <section class="page__section page__section_1">
-                <h1 class="page__title"> Digital Engineering & Services </h1>
-                <div class="page__img-main main-img">
-                    <img class="main-img__src" src="./img/main2.png" alt="главная картинка">
-                    <div class="main-img__section-1">
-                        <p>Переведем 2D-чертежи в 3D-модели.</p>
-                    </div>
+            <div class="benefits__blocks">
+                <img class="benefits__icon-1" src="./img/benefit/icon_1.png" alt="иконка">
+                <img class="benefits__icon-2" src="./img/benefit/icon_3.png" alt="иконка">
+                <div class="benefits__block block-benefits block-benefits_1">
+                    <img class="benefits__autodesk-img" src="./img/benefit/b.png" alt="b">
+                    <p class="block-benefits__text">
+                        В первую очередь создание общей открытой среды общих данных (СОД), информация из которой
+                        доступна всем участникам проекта. Как следствие,
+                        <span class="text-underline">
+                            снижается риск искажения данных при коммуникации,
+                        </span>
+                        неизбежный в ситуациях, когда информация разделена между разными людьми.
+                    </p>
                 </div>
-            </section>
+                <div class="benefits__block block-benefits block-benefits_2">
+                    <p class="block-benefits__text block-benefits_text-black block-benefits_text-block-2">
+                        BIM позволяет предотвратить риск погрешностей при оценке объемов работ. Также
+                        <span class="text-bold">возможность оценить корректность технологических решений </span>
+                        строительства и провести тестирование эксплуатации здания до начала строительства.
+                    </p>
+                    <img class="benefits__icon-3" src="./img/benefit/icon_2.png" alt="иконка">
+                </div>
+                <div class="benefits__block block-benefits block-benefits_3">
+                    <img class="benefits__block-3-img" src="./img/benefit/block_3.png" alt="картинка">
+                    <p class="block-benefits__text block-benefits_text-black">
+                        Одно из ключевых преимуществ <span class="text-bold"> выявление коллизий </span> на ранних
+                        стадиях проекта которые влияют на
+                        стоимость строительства. В крупных промышленных проектах обнаруживается около 2000-3000
+                        <span class="block-benefits_text-block-3">
+                            коллизий, что <span class="text-bold"> экономит порядка $34 млн. </span>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        </main>
-        <footer></footer>
-
-    </div>
+    </main>        
     <script src="script.js"></script>
 </body>
 
